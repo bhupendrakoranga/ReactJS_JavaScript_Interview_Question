@@ -6,4 +6,29 @@ Answer - React is a free open source front-end JavaScript library for building u
 - It uses a un-direction data flow and databinding.
 
 2- What is a JSX ?
-Answer - JSX is a combination of HTML and JavaScript. it is a 
+Answer - JSX is a syntax extension of JavaScript. it is used with React to discribe how to user interface should look.
+and basically it is a combination of html and JavaScript.
+
+3- Explain how the virtual DOM works in React.Js ?
+Answer: The Virtual DOM is an in-memory representation of the actual DOM. When a state change occurs in a React component, 
+React first updates the Virtual DOM and then compares it with the previous Virtual DOM (using a process called “diffing”). 
+React only applies the differences to the real DOM, optimizing updates.
+
+function App() {
+  const [count, setCount] = React.useState(0);
+
+  return (
+    <div>
+      <h1>{count}</h1>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
+}
+
+4- Explain the Context API and its typical use cases?
+Answer - The Context API provides a way to pass data through the component tree without passing props manually at every level. 
+It’s useful for global data like user authentication, theme preferences, or language settings.
+
+5- What are the differences between controlled and uncontrolled Component is React ?
+Answer - Controlled Component have their values managed by React's state.
+uncontrolled Component manage their values directly through the DOM.
