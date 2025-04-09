@@ -1,0 +1,9 @@
+1- What is React ?
+Answer - React is a free open source front-end JavaScript library for building user interface based on UI Component.
+- It is a single page application.
+- It is used a Server side rendering.
+- It is used a a virtual Dom instead of real Dom.
+- It uses a un-direction data flow and databinding.
+
+2- What is a JSX ?
+Answer - JSX is a combination of HTML and JavaScript. it is a 
